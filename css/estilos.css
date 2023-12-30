@@ -1,0 +1,97 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    height: calc(100vh - 250px);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+div { 
+    height: 430px;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: orange;  
+}
+
+img {
+    width: 54px;
+    height: 33.75px;
+    padding: 40px 0 0 40px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 20px 20px 0 40px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+    font-size: 35px;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    margin-top: 0;
+    padding: 0 40px 0 40px;
+    line-height: 1.6;
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    padding: 15px 30px 15px 30px;
+    margin: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    border-style: solid;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+.sedans {
+    margin-right: 0;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.suvs {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    margin-left: 0;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.sedansb {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvsb {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxuryb {
+    color: hsl(179, 100%, 13%);
+}

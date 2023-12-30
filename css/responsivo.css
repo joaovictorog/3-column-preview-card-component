@@ -1,0 +1,21 @@
+@media (max-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+
+    div {
+        
+        font-size-adjust: 10px;
+    }
+
+    .sedans {
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+
+    .luxury {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+    }
+}
